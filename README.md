@@ -35,8 +35,8 @@
 - [MongoDB](https://www.mongodb.com/) (local installation or MongoDB Atlas)
 
 ---
-##📁Folder-Structure
--personal-lib-tracker/
+## 📁Folder-Structure
+personal-lib-tracker/
   backend/      # Express API, models, controllers, routes, uploads
   frontend/     # React app, components, pages, context, assets
 
