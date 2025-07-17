@@ -1,108 +1,40 @@
-📚 Personal Library Tracker
+# 📚 Personal Library Tracker
 
-A full-stack web application to help you manage your personal book collection. Easily add, edit, search, and track the status of books you own, are reading, or want to read. Includes user authentication and a modern, responsive UI.
+**Personal Library Tracker** is a modern full-stack web application designed to help book lovers manage their personal collections effortlessly. Add, edit, search, and track your books’ reading status — all in one place, with secure user authentication and a sleek, responsive UI.
 
-✨ Features
-🔐 User Authentication: Register and log in securely.
+---
 
-👁 Password Visibility Toggle: Show/hide password using an eye icon in forms.
+## 🚀 Features
 
-➕ Add/Edit/Delete Books: Manage your library with details like cover images, genres, and reading status.
+- **Secure User Authentication:** Register, log in, and manage your profile with JWT-based authentication.  
+- **Password Visibility Toggle:** Easily show or hide your password with a convenient eye icon during login and registration.  
+- **Comprehensive Book Management:** Add, edit, and delete books, including cover images, genres, and custom reading statuses (To Read, Reading, Read).  
+- **Powerful Search & Filters:** Search your collection by title, author, genre, or reading status.  
+- **Personalized Dashboard:** Track your reading progress and get insights through dynamic stats and filters.  
+- **Responsive UI:** Designed with Tailwind CSS to look great on both desktop and mobile devices.  
 
-🔍 Search Books: Quickly find books by title, author, or status.
+---
 
-📊 Dashboard: View your reading stats and filter books easily.
+## 🛠 Technology Stack
 
-📱 Responsive Design: Fully optimized for both desktop and mobile devices.
+| Layer       | Technologies                    |
+|-------------|--------------------------------|
+| Frontend    | React, Vite, Tailwind CSS      |
+| Backend     | Node.js, Express.js            |
+| Database    | MongoDB                        |
+| Authentication | JWT (JSON Web Tokens)       |
 
-🛠 Tech Stack
-Frontend: React, Tailwind CSS, Vite
-Backend: Node.js, Express.js, MongoDB
-Authentication: JWT-based authentication with protected routes
+---
 
-🚀 Getting Started
-✅ Prerequisites
-Node.js (v16+ recommended)
+## 📋 Getting Started
 
-npm or yarn
+### Prerequisites
 
-MongoDB (local or Atlas)
+- [Node.js](https://nodejs.org/en/) v16 or higher  
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
+- [MongoDB](https://www.mongodb.com/) (local installation or MongoDB Atlas)
 
-📦 Installation
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/personal-lib-tracker.git
-cd personal-lib-tracker
-Install dependencies
-
-Backend:
-
-bash
-Copy
-Edit
-cd backend
-npm install
-Frontend:
-
-bash
-Copy
-Edit
-cd ../frontend
-npm install
-Set up environment variables
-
-Create a .env file in the backend directory with:
-
-ini
-Copy
-Edit
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
-
-🏃 Run the App
-Start the backend server
-
-bash
-Copy
-Edit
-cd backend
-npm run dev
-Start the frontend dev server
-
-bash
-Copy
-Edit
-cd ../frontend
-npm run dev
-Open your browser and visit:
-http://localhost:5173
-
-📁 Folder Structure
-arduino
-Copy
-Edit
-personal-lib-tracker/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── config/
-│   └── server.js
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── context/
-│   ├── App.jsx
-│   └── main.jsx
-
-
-🤝 Contributing
-Pull requests are welcome!
+---
 
 
 
