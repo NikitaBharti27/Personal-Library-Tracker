@@ -35,6 +35,45 @@
 - [MongoDB](https://www.mongodb.com/) (local installation or MongoDB Atlas)
 
 ---
+personal-lib-tracker/
+├── backend/
+│   ├── controllers/       # Request handlers for API routes
+│   ├── models/            # Database schemas and models
+│   ├── routes/            # API route definitions
+│   ├── middleware/        # Custom middleware (auth, error handling, etc.)
+│   ├── config/            # Configuration files (DB connection, etc.)
+│   └── server.js          # Express app entry point
+├── frontend/
+│   ├── components/        # React reusable components
+│   ├── pages/             # React pages/screens
+│   ├── context/           # React context providers (auth, etc.)
+│   ├── App.jsx            # Main app component
+│   └── main.jsx           # React entry point
 
+---
+API Endpoints
+-User
+-POST /api/users/register — Register a new user
+-POST /api/users/login — Login and receive JWT
+-Books
+-GET /api/books — Get all books
+-POST /api/books — Add a new book
+-PUT /api/books/:id — Edit a book
+-DELETE /api/books/:id — Delete a book
+> All book routes require authentication (JWT in the Authorization header).
 
+---
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
 
+-Fork the repository
+
+-Create your feature branch (git checkout -b feature/my-feature)
+
+-Commit your changes (git commit -m 'Add my feature')
+
+-Push to the branch (git push origin feature/my-feature)
+
+-Open a Pull Request
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
