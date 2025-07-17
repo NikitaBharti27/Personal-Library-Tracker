@@ -35,20 +35,10 @@
 - [MongoDB](https://www.mongodb.com/) (local installation or MongoDB Atlas)
 
 ---
-personal-lib-tracker/
-├── backend/
-│   ├── controllers/       # Request handlers for API routes
-│   ├── models/            # Database schemas and models
-│   ├── routes/            # API route definitions
-│   ├── middleware/        # Custom middleware (auth, error handling, etc.)
-│   ├── config/            # Configuration files (DB connection, etc.)
-│   └── server.js          # Express app entry point
-├── frontend/
-│   ├── components/        # React reusable components
-│   ├── pages/             # React pages/screens
-│   ├── context/           # React context providers (auth, etc.)
-│   ├── App.jsx            # Main app component
-│   └── main.jsx           # React entry point
+##📁Folder-Structure
+-personal-lib-tracker/
+  backend/      # Express API, models, controllers, routes, uploads
+  frontend/     # React app, components, pages, context, assets
 
 ---
 API Endpoints
